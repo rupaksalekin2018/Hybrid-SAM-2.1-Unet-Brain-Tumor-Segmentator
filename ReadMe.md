@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project implements a state-of-the-art **Hybrid Segmentation Architecture** for identifying brain tumors in MRI scans. By combining the robust feature extraction capabilities of Meta's **Segment Anything Model (SAM 2.1)** with the specialized medical segmentation architecture of **U-Net++ (EfficientNet-B7 backbone)**, we achieved high-precision segmentation results without requiring massive labeled datasets.
+This project implements a state-of-the-art **Hybrid Segmentation Architecture** for identifying brain tumors in MRI scans. By combining the robust feature extraction capabilities of Meta's **Segment Anything Model (SAM 2.1)** with the specialized medical segmentation architecture of **U-Net++ (EfficientNet-B7 backbone)**, we achieved high-precision segmentation results without requiring massive labeled datasets. This project used kaggle platform for GPU support, thus do not forget to change the file paths.
 
 **Key Achievement:**
 🚀 **Dice Score: 0.8369** (Validation) after just 15 epochs of fine-tuning.
@@ -126,4 +126,9 @@ python train.py
 
 * **Dataset:** [Brain Tumor Segmentation Dataset](https://www.kaggle.com/datasets/indk214/brain-tumor-dataset-segmentation-and-classification)
 * **Libraries:** [Ultralytics (SAM)](https://github.com/ultralytics/ultralytics), [Segmentation Models PyTorch](https://github.com/qubvel/segmentation_models.pytorch)
+
+### Visual Inference Gallery
+*Below is a random selection of test samples. The **Red Overlay** represents the model's prediction compared to the Ground Truth.*
+
+![Inference Gallery](1.png)
 
