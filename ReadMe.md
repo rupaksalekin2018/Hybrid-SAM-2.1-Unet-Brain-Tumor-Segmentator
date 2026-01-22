@@ -47,11 +47,6 @@ The model demonstrates exceptional ability to localize tumors, even in challengi
 | **Final Training Loss** | 0.0646 |
 | **Epochs** | 15 |
 
-### Visual Inference Gallery
-
-*Below is a random selection of test samples. The **Red Overlay** represents the model's prediction compared to the Ground Truth.*
-
-*(Note: Upload the 'Screenshot 2026-01-03...' image to your repo and paste the link here)*
 
 **Observations:**
 
